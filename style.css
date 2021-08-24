@@ -1,10 +1,12 @@
 #card{
   float: left;
   margin: 30px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  body {
+   #card {
    background-color: brown;
+   margin: 23%;
   }
