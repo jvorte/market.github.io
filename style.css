@@ -1,0 +1,17 @@
+*{
+    font-family:  Arial Narrow, sans-serif;
+}
+
+
+#navbarSupportedContent{
+    padding-left: 800px;
+  
+}
+.container a {
+    color: aliceblue;
+}
+
+#nav-top{
+
+    height: 30px;
+}
