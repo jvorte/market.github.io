@@ -19,7 +19,8 @@
   
   .main {
     float: left;
-    width: 60%;
+    width: 100%;
+  
     padding: 0 20px;
   }
   
@@ -30,6 +31,10 @@
     padding: 15px;
     margin-top: 7px;
     text-align: center;
+  }
+
+ #product{
+  float: left;
   }
   
   @media only screen and (max-width: 620px) {
