@@ -36,7 +36,7 @@ padding-left: 25%;
 
 
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   * {
     box-sizing: border-box;
@@ -49,24 +49,53 @@ padding-left: 25%;
   }
   
   #logo{
-   padding-left: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    text-align: center;
+    font-size: small;
   }
   #icons img{
     width: 30px;
   }
   #icons {
     float: left;
-    margin:  16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 6px;
     text-align: center;
     font-size: small;
+    
   
   }
   
   #logo,#icons{
-   width: 100%;
-   float: left;
+   width: 70%;
+  
   }
 
 
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
