@@ -36,7 +36,7 @@ padding-left: 25%;
 
 
 
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 920px) {
   /* For mobile phones: */
   * {
     box-sizing: border-box;
@@ -62,6 +62,7 @@ padding-left: 25%;
     font-size: small;
   
   }
+  
   #logo,#icons{
    width: 100%;
    float: left;
