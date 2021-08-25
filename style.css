@@ -2,6 +2,33 @@
   font-family: Arial;
   box-sizing: border-box;
 }
+
+
+h1 {
+  position: relative;
+  font-size: 30px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  clear: both;  
+  
+}
+h1:before, h1:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '\a0';
+  background-color: rgb(20, 15, 15);
+}
+h1:before {
+  margin-left: -50%;
+  text-align: right;
+}
+.color {
+  background-color: #ccc;
+}
 #nav-top {
   height: 23px;
   background-color: rgb(54, 53, 53);
@@ -9,7 +36,7 @@
 }
 
 #navbarNav{
-margin-left: 49%;
+margin-left: 61%;
 }
 .navbar-brand{
  
@@ -26,19 +53,22 @@ margin-left: 49%;
   width: 40px;
 }
 #icons{
-padding-left: 25%;
+padding-left: 36%;
 }
-#card{
-  float: left;
-  margin: 10px;
-  box-shadow: 1px 1px 1px 1px rgb(236, 231, 231);
-}
+/* second-navbar */
+#second-navbar{
+  font-size: 25px;
 
+}
+/* gallery */
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  box-shadow: 1px 1px 1px gray;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 div.gallery:hover {
@@ -46,6 +76,31 @@ div.gallery:hover {
 }
 
 div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* gallery-b */
+
+div.gallery-b {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 275px;
+  box-shadow: 1px 1px 1px gray;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+div.gallery-b:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-b img {
   width: 100%;
   height: auto;
 }
