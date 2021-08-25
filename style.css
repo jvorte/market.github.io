@@ -25,6 +25,9 @@ margin-left: 49%;
 #icons img{
   width: 40px;
 }
+#icons{
+padding-left: 25%;
+}
 #card{
   float: left;
   margin: 10px;
@@ -46,16 +49,17 @@ margin-left: 49%;
   }
   
   #logo{
-   
+   padding-left: 35%;
   }
   #icons img{
-    width: 40px;
+    width: 30px;
   }
-  #icons div{
+  #icons {
     float: left;
-    margin: 19px 5px;
+    margin:  16px;
+    padding: 6px;
     text-align: center;
-    font-size: x-small;
+    font-size: small;
   
   }
   #logo,#icons{
