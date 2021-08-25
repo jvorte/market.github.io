@@ -19,7 +19,11 @@ margin-left: 49%;
   float: left;
   margin: 19px 15px;
   text-align: center;
+  
 
+}
+#icons img{
+  width: 40px;
 }
 #card{
   float: left;
@@ -28,24 +32,35 @@ margin-left: 49%;
 }
 
 
-#nav-top2 { 
-  /* border: 1px solid; */
-}
-
 
 @media only screen and (max-width: 1120px) {
   /* For mobile phones: */
+  * {
+    box-sizing: border-box;
+  }
+  
   #nav-top {
     height: 50px;
     background-color: rgb(54, 53, 53);
     font-size: medium;
   }
-
+  
   #logo{
    
   }
-  .container{
-clear: both;
+  #icons img{
+    width: 40px;
+  }
+  #icons div{
+    float: left;
+    margin: 19px 5px;
+    text-align: center;
+    font-size: x-small;
+  
+  }
+  #logo,#icons{
+   width: 100%;
+   float: left;
   }
 
 
