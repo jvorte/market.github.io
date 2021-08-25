@@ -33,7 +33,7 @@ margin-left: 49%;
 }
 
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 1120px) {
   /* For mobile phones: */
   #nav-top {
     height: 50px;
