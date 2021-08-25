@@ -1,18 +1,52 @@
-#card{
-  float: left;
-  margin: 10px;
-  
+*{
+  font-family: Arial;
+  box-sizing: border-box;
+}
+#nav-top {
+  height: 23px;
+  background-color: rgb(54, 53, 53);
+  font-size: small;
 }
 
 #navbarNav{
-margin-left: 55%;
+margin-left: 49%;
 }
+.navbar-brand{
+ 
+  font-size: small;
+}
+#icons div{
+  float: left;
+  margin: 19px 15px;
+  text-align: center;
+
+}
+#card{
+  float: left;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(236, 231, 231);
+}
+
+
+#nav-top2 { 
+  /* border: 1px solid; */
+}
+
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-   #card {
-  
-
-   width: 100%;
-
+  #nav-top {
+    height: 50px;
+    background-color: rgb(54, 53, 53);
+    font-size: medium;
   }
+
+  #logo{
+   
+  }
+  .container{
+clear: both;
+  }
+
+
+}
